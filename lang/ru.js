@@ -1,6 +1,6 @@
 CKEDITOR.plugins.setLang( 'token', 'ru', {
-	title: 'Вставить токен',
+	title: 'Токен',
 	toolbar: 'Токен',
-	name: 'Токен',
+	name: '',
 	pathName: 'token'
 } );
