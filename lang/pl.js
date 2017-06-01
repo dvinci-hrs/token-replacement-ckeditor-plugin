@@ -1,4 +1,4 @@
-CKEDITOR.plugins.setLang( 'token', 'en', {
+CKEDITOR.plugins.setLang( 'token', 'pl', {
 	title: 'Znaki zastępczych',
 	toolbar: 'Znaki zastępczych',
 	name: '',
