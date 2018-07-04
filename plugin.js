@@ -12,7 +12,7 @@ function escapeRegExp(string) {
 (function () {
     CKEDITOR.plugins.add('token', {
         requires: 'widget,dialog',
-        lang: 'en,ru,de,et,fr,pl,nl,es',
+        lang: 'dvinciLang',
         icons: 'token',
         hidpi: true,
 
