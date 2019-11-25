@@ -8,9 +8,10 @@
 CKEDITOR.dialog.add('token', function (editor) {
     var lang = editor.lang.token;
     var generalLabel = editor.lang.common.generalTab;
-    var tokens = [["", ""]];
+    var tokens = {};
+    tokens.data = [["", ""]];
     if (typeof editor.config.availableTokens != "undefined") {
-        tokens = editor.config.availableTokens;
+        tokens.data = editor.config.availableTokens;
     }
 
     return {
@@ -32,7 +33,7 @@ CKEDITOR.dialog.add('token', function (editor) {
                         label: lang.name,
                         'default': '',
                         required: true,
-                        items: tokens,
+                        items: tokens.data,
                         setup: function (widget) {
                             this.setValue(widget.data.name);
                         },
